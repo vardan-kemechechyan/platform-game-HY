@@ -1,0 +1,66 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.6/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.6/addons/p5.dom.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script language="javascript" type="text/javascript" src="script/config.js"></script>
+  <script language="javascript" type="text/javascript" src="script/class.js"></script>
+  <script language="javascript" type="text/javascript" src="script/functions.js"></script>
+  <script language="javascript" type="text/javascript" src="script/script.js"></script>
+</head>
+
+<body>
+  <div id="start" class="modal hidden">
+    <div class="modal-content">
+      <span id="closeStart" class="close">&times;</span>
+      <h1>Արի՛ խաղանք</h1>
+      <h3>Հավաքի՛ր բոլոր բանալիները աստղին փրկելու համար</h3>
+      <button type="button" id="lvl1" disabled>Առաջին աշխարհ</button>
+      <button type="button" id="lvl2" disabled>Երկրորդ աշխարհ</button>
+      <button type="button" id="lvl3" disabled>Երրորդ աշխարհ</button>
+      <h4>կամ</h4>
+      <form>
+        <input type="text" name="data" id="data" placeholder="Մուտքագրի՛ր հղումը` սեփական աշխարհդ սարքելու համար">
+        <input type="submit" value="Բեռնել" id="submit">
+      </form>
+    </div>
+  </div>
+  <div id="getLink" class="modal hidden">
+    <div class="modal-content">
+      <span id="closeLink" class="close">&times;</span>
+      <input type="text" value="" id="link">
+      </p>
+      <button type="button" id="OK">Սեղմի’ր այստեղ` հղումը պատճենելու համար</button>
+    </div>
+  </div>
+  <div id="build" class="modal hidden">
+    <div class="modal-content">
+      <span id="closeBuild" class="close">&times;</span>
+      <h1>Հաղթեցի՜ր: Հիմա քո սեփական աշխարհը ստեղծի՛ր</h1>
+      <button type="button" id="letsstart">Գնացի՜նք</button>
+    </div>
+  </div>
+  <div id="save" class="modal hidden">
+    <div class="modal-content">
+      <span id="closeSave" class="close">&times;</span>
+      <h1 class="message">Հաղթեցի՜ր</h1>
+      <h1 class="message">Սեղմի՛ր Պահել` քո սեփական աշխարհի հղումը ստեղծելու համար</h1>
+      <button type="button" id="saveButton">Պահել</button>
+    </div>
+  </div>
+  <div id="delete" class="modal hidden">
+    <div class="modal-content">
+      <h1>Սա կջնջի աշխարհդ: Վստա՞հ ես, որ ուզում ես:</h1>
+      <button type="button" id="yes">Այո</button>
+      <button type="button" id="no">Ոչ</button>
+    </div>
+  </div>
+
+  <script language="javascript" type="text/javascript" src="script/popup.js"></script>
+
+</body>
+
+
+</html>
